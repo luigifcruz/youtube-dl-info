@@ -1,6 +1,6 @@
 {
   "name": "youtube-dl-info",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engine": "node 0.4.1",
   "description": "YouTube-DL-Info",
   "main": "index.js",
