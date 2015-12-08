@@ -4,7 +4,7 @@ Get actual video link (or any other metadata you want) of any compatible website
 
 ### Installation
 
-    IMPORTANT: You will need to install [youtube-dl](https://github.com/rg3/youtube-dl/#installation) first.
+IMPORTANT: You will need to install [youtube-dl](https://github.com/rg3/youtube-dl/#installation) first.
 
     npm install youtube-dl-info
 
