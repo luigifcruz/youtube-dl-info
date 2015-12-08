@@ -3,7 +3,7 @@
 var exec = require("exec");
 
 function get(url, json) {
-  var ItIsURL = new RegExp(/(https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,})/g;);
+  var ItIsURL = new RegExp(/(https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,})/g);
 
   if (link.match(ItIsURL))
     exec("youtube-dl -J " + link, function(err, out, code) {
