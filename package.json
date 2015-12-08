@@ -1,0 +1,27 @@
+{
+  "name": "youtube-dl-info",
+  "version": "0.0.1",
+  "engine": "node 0.4.1",
+  "description": "YouTube-DL-Info",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luigifreitas/youtube-dl-info.git"
+  },
+  "keywords": [
+    "youtube-dl",
+    "information",
+    "info",
+    "api",
+    "json"
+  ],
+  "author": "Luigi Freitas <luigifcruz@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luigifreitas/youtube-dl-info/issues"
+  },
+  "dependencies": {
+    "exec": "^0.2.1"
+  },
+  "homepage": "https://github.com/luigifreitas/youtube-dl-info"
+}
