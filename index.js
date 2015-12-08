@@ -2,7 +2,7 @@
 
 var exec = require("exec");
 
-function get(url, json) {
+function get(url, callback) {
   var ItIsURL = new RegExp(/(https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,})/g);
 
   if (url.match(ItIsURL)) {
